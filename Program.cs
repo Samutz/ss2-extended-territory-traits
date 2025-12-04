@@ -88,6 +88,7 @@ class Program
         tempFormList.EditorID = $"{modPrefix}_TempFormList";
 
         // create trait keywords
+        bool bNewKeyword = false;
         foreach (var trait in traitsCSV)
         {
             // check for existing keyword else create new keyword
@@ -96,12 +97,14 @@ class Program
             {
                 locationKeyword = existingLocationKeyword;
                 tempFormList.Items.Add(existingLocationKeyword.FormKey);
+                bNewKeyword = false;
             }
             else
             {
                 if (outgoing.Keywords.FirstOrDefault(c => c?.EditorID == trait.Keyword, null) is IKeywordGetter outgoingLocationKeyword)
                 {
                     locationKeyword = outgoingLocationKeyword;
+                    bNewKeyword = true;
                 }
                 else
                 {
@@ -109,6 +112,7 @@ class Program
                     newKeyword.EditorID = trait.Keyword;
                     newKeyword.Type = Keyword.TypeEnum.None;
                     locationKeyword = newKeyword;
+                    bNewKeyword = true;
                 }
             }
 
@@ -124,31 +128,52 @@ class Program
                 // create usage requirements
                 var newMiscItem = outgoing.MiscItems.DuplicateInAsNewRecord(usageRequirementTemplate);
                 newMiscItem.EditorID = usageEditorID;
+
+                ScriptStructListProperty usageRequirementsProperty;
+                if (bNewKeyword)
+                {
+                    usageRequirementsProperty = new ScriptStructListProperty(){
+                        Name = "LocationKeywordDataRequirements",
+                        Structs = [
+                            new ScriptEntryStructs(){
+                                Members = [
+                                    new ScriptObjectProperty(){
+                                        Name = "KeywordForm",
+                                        Object = locationKeyword.ToLink()
+                                    },
+                                    new ScriptFloatProperty(){
+                                        Name = "fValue",
+                                        Data = 1
+                                    }
+                                ]
+                            }
+                        ]
+                    };
+                }
+                else
+                {
+                    usageRequirementsProperty = new ScriptStructListProperty(){
+                        Name = "LocationKeywordRequirements",
+                        Structs = [
+                            new ScriptEntryStructs(){
+                                Members = [
+                                    new ScriptObjectProperty(){
+                                        Name = "BaseForm",
+                                        Object = locationKeyword.ToLink()
+                                    }
+                                ]
+                            }
+                        ]
+                    };
+                }
+
                 newMiscItem.VirtualMachineAdapter = new VirtualMachineAdapter
                 {
                     Scripts = [
                         new ScriptEntry()
                         {
                             Name = "SimSettlementsV2:MiscObjects:UsageRequirements",
-                            Properties = [
-                                new ScriptStructListProperty(){
-                                    Name = "LocationKeywordDataRequirements",
-                                    Structs = [
-                                        new ScriptEntryStructs(){
-                                            Members = [
-                                                new ScriptObjectProperty(){
-                                                    Name = "KeywordForm",
-                                                    Object = locationKeyword.ToLink()
-                                                },
-                                                new ScriptFloatProperty(){
-                                                    Name = "fValue",
-                                                    Data = 1
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            Properties = [usageRequirementsProperty]
                         }
                     ]
                 };
