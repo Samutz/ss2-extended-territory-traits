@@ -1,0 +1,2 @@
+# About
+This is a [Mutagen](https://github.com/Mutagen-Modding/Mutagen) app I wrote to automate the creation of a [Sim Settlements 2](https://simsettlements2.com) addon that adds new territory traits to SS2's territory mechanics.

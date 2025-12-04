@@ -1,0 +1,95 @@
+Keyword,ResourceAV,ResourceDescription,Modifier,TraitDescription,TraitEditorID,TypeName
+DLC03LocEncTrappers,SS2_VirtualResource_OrganicMaterials_Cork,Scrap - Organic Materials - Cork,5,+5 Daily Scrap - Organic Materials - Cork,XTB_TerritoryTrait_DLC03LocEncTrappers_CorkBonus,Trapper
+DLC03LocEncTrappers,SS2_VirtualResource_OrganicMaterials_Leather,Scrap - Organic Materials - Leather,10,+10 Daily Scrap - Organic Materials - Leather,XTB_TerritoryTrait_DLC03LocEncTrappers_LeatherBonus,Trapper
+DLC03LocEncTrappers,SS2_VirtualResource_Supplies_Ammo_Ballistic,Supplies - Ammo - Ballistic Ammo,25,+25 Daily Supplies - Ammo - Ballistic Ammo,XTB_TerritoryTrait_DLC03LocEncTrappers_BallisticAmmoBonus,Trapper
+DLC03LocEncTrappers,SS2_VirtualResource_Supplies_Armor_Makeshift,Supplies - Weapons - Makeshift Armor Parts,3,+3 Daily Supplies - Weapons - Makeshift Armor Parts,XTB_TerritoryTrait_DLC03LocEncTrappers_MakeshiftArmorPartsBonus,Trapper
+DLC03LocEncTrappers,SS2_VirtualResource_Supplies_WeaponParts_Makeshift,Supplies - Weapons - Makeshift Weapon Parts,3,+3 Daily Supplies - Weapons - Makeshift Weapon Parts,XTB_TerritoryTrait_DLC03LocEncTrappers_MakeshiftWeaponPartsBonus,Trapper
+LocSetCave,SS2_VirtualResource_BuildingMaterials_Concrete,Scrap - Building Materials - Concrete,40,+40 Daily Scrap - Building Materials - Concrete,XTB_TerritoryTrait_LocSetCave_ConcreteBonus,Cave
+LocSetCave,SS2_VirtualResource_RareMaterials_Crystal,Scrap - Rare Materials - Crystal,5,+5 Daily Scrap - Rare Materials - Crystal,XTB_TerritoryTrait_LocSetCave_CrystalBonus,Cave
+LocSetEncampment,SS2_VirtualResource_BuildingMaterials_Wood,Scrap - Building Materials - Wood,25,+25 Daily Scrap - Building Materials - Wood,XTB_TerritoryTrait_LocSetEncampment_WoodBonus,Encampment
+LocSetFactory,SS2_VirtualResourceCategory_MachineParts,Scrap - Machine Parts,30,+30 Daily Scrap - Machine Parts,XTB_TerritoryTrait_LocSetFactory_MachinePartsBonus,Factory
+LocSetFactory,SS2_VirtualResourceCategory_RareMaterials,Scrap - Rare Materials,10,+10 Daily Scrap - Rare Materials,XTB_TerritoryTrait_LocSetFactory_RareMaterialsBonus,Factory
+LocSetLaboratory,SS2_VirtualResourceCategory_RareMaterials,Scrap - Rare Materials,40,+40 Daily Scrap - Rare Materials,XTB_TerritoryTrait_LocSetLaboratory_RareMaterialsBonus,Laboratory
+LocSetLaboratory,SS2_VirtualResource_SuppliesCategory_Chems,Supplies - Chems,10,+10 Daily Supplies - Chems,XTB_TerritoryTrait_LocSetLaboratory_ChemsBonus,Laboratory
+LocSetMonument,WorkshopRatingHappiness,Happiness,10,+10 Daily Happiness,XTB_TerritoryTrait_LocSetMonument_HappinessBonus,Monument
+LocSetOffice,WorkshopRatingScavengeGeneral,Junk,15,+15 Daily Junk,XTB_TerritoryTrait_LocSetOffice_JunkBonus,Office
+LocSetOffice,SS2_VirtualResourceCategory_BuildingMaterials,Scrap - Building Materials,30,+30 Daily Scrap - Building Materials,XTB_TerritoryTrait_LocSetOffice_BuildingMaterialsBonus,Office
+LocSetRuinsTown,WorkshopRatingScavengeGeneral,Junk,15,+15 Daily Junk,XTB_TerritoryTrait_LocSetRuinsTown_JunkBonus,Town Ruins
+LocSetRuinsTown,SS2_VirtualResourceCategory_BuildingMaterials,Scrap - Building Materials,35,+35 Daily Scrap - Building Materials,XTB_TerritoryTrait_LocSetRuinsTown_BuildingMaterialsBonus,Town Ruins
+LocSetRuinsUrban,WorkshopRatingScavengeGeneral,Junk,25,+25 Daily Junk,XTB_TerritoryTrait_LocSetRuinsUrban_JunkBonus,Urban Ruins
+LocSetRuinsUrban,SS2_VirtualResourceCategory_BuildingMaterials,Scrap - Building Materials,50,+50 Daily Scrap - Building Materials,XTB_TerritoryTrait_LocSetRuinsUrban_BuildingMaterialsBonus,Urban Ruins
+LocSetSalvageYard,WorkshopRatingScavengeGeneral,Junk,25,+25 Daily Junk,XTB_TerritoryTrait_LocSetSalvageYard_JunkBonus,Salvage Yard
+LocSetSalvageYard,SS2_VirtualResourceCategory_Scrap,Scrap,25,+25 Daily Scrap,XTB_TerritoryTrait_LocSetSalvageYard_ScrapBonus,Salvage Yard
+LocSetStore,WorkshopRatingScavengeGeneral,Junk,5,+5 Daily Junk,XTB_TerritoryTrait_LocSetStore_JunkBonus,Store
+LocSetSubwayStation,SS2_VirtualResource_BuildingMaterials_Steel,Scrap - Building Materials - Steel,50,+50 Daily Scrap - Building Materials - Steel,XTB_TerritoryTrait_LocSetSubwayStation_SteelBonus,Subway Station
+LocSetSubwayStation,SS2_VirtualResourceCategory_MachineParts,Scrap - Machine Parts,25,+25 Daily Scrap - Machine Parts,XTB_TerritoryTrait_LocSetSubwayStation_MachinePartsBonus,Subway Station
+LocSetTelecom,SS2_VirtualResource_MachineParts_Circuitry,Scrap - Machine Parts - Circuitry,20,+20 Daily Scrap - Machine Parts - Circuitry,XTB_TerritoryTrait_LocSetTelecom_CircuitryBonus,Telecom
+LocSetTelecom,SS2_VirtualResource_MachineParts_Copper,Scrap - Machine Parts - Copper,20,+20 Daily Scrap - Machine Parts - Copper,XTB_TerritoryTrait_LocSetTelecom_CopperBonus,Telecom
+LocSetTelecom,SS2_VirtualResource_RareMaterials_FiberOptics,Scrap - Rare Materials - Fiber Optics,10,+10 Daily Scrap - Rare Materials - Fiber Optics,XTB_TerritoryTrait_LocSetTelecom_FiberOpticsBonus,Telecom
+LocSetTunnelsUnderground,WorkshopRatingScavengeGeneral,Junk,25,+25 Daily Junk,XTB_TerritoryTrait_LocSetTunnelsUnderground_JunkBonus,Underground Tunnels
+LocSetUtility,SS2_VirtualResourceCategory_MachineParts,Scrap - Machine Parts,30,+30 Daily Scrap - Machine Parts,XTB_TerritoryTrait_LocSetUtility_MachinePartsBonus,Utility
+LocSetUtility,SS2_VirtualResourceCategory_RareMaterials,Scrap - Rare Materials,10,+10 Daily Scrap - Rare Materials,XTB_TerritoryTrait_LocSetUtility_RareMaterialsBonus,Utility
+LocSetVault,WorkshopRatingScavengeGeneral,Junk,25,+25 Daily Junk,XTB_TerritoryTrait_LocSetVault_JunkBonus,Vault
+LocSetVault,SS2_VirtualResource_BuildingMaterials_Steel,Scrap - Building Materials - Steel,50,+50 Daily Scrap - Building Materials - Steel,XTB_TerritoryTrait_LocSetVault_SteelBonus,Vault
+LocSetWarehouse,WorkshopRatingScavengeGeneral,Junk,25,+25 Daily Junk,XTB_TerritoryTrait_LocSetWarehouse_JunkBonus,Warehouse
+LocSetWarehouse,SS2_VirtualResourceCategory_Scrap,Scrap,25,+25 Daily Scrap,XTB_TerritoryTrait_LocSetWarehouse_ScrapBonus,Warehouse
+LocSetWaterfront,SS2_VirtualResource_OrganicMaterials_Bone,Scrap - Organic Materials - Bone,20,+20 Daily Scrap - Organic Materials - Bone,XTB_TerritoryTrait_LocSetWaterfront_BoneBonus,Waterfront
+LocSetWaterfront,SS2_VirtualResource_OrganicMaterials_Oil,Scrap - Organic Materials - Oil,20,+20 Daily Scrap - Organic Materials - Oil,XTB_TerritoryTrait_LocSetWaterfront_OilBonus,Waterfront
+LocTypeCheckpoint,SS2_VirtualResource_RareMaterials_BallisticFiber,Scrap - Rare Materials - Ballistic Fiber,1,+1 Daily Scrap - Rare Materials - Ballistic Fiber,XTB_TerritoryTrait_LocTypeCheckpoint_BallisticFiberBonus,Military Checkpoint
+LocTypeCheckpoint,SS2_VirtualResource_Supplies_Armor_Standard,Supplies - Armor - Standard Armor Parts,1,+1 Daily Supplies - Armor - Standard Armor Parts,XTB_TerritoryTrait_LocTypeCheckpoint_StandardArmorPartsBonus,Military Checkpoint
+LocTypeCheckpoint,SS2_VirtualResource_Supplies_Ammo_Ballistic,Supplies - Ammo - Ballistic Ammo,10,+10 Daily Supplies - Ammo - Ballistic Ammo,XTB_TerritoryTrait_LocTypeCheckpoint_BallisticAmmoBonus,Military Checkpoint
+LocTypeCheckpoint,SS2_VirtualResource_Supplies_Ammo_Energy,Supplies - Ammo - Energy Ammo,3,+3 Daily Supplies - Ammo - Energy Ammo,XTB_TerritoryTrait_LocTypeCheckpoint_EnergyAmmoBonus,Military Checkpoint
+LocTypeCheckpoint,SS2_VirtualResource_Supplies_Ammo_Explosive,Supplies - Ammo - Explosives,1,+1 Daily Supplies - Ammo - Explosives,XTB_TerritoryTrait_LocTypeCheckpoint_ExplosivesBonus,Military Checkpoint
+LocTypeCheckpoint,SS2_VirtualResource_Supplies_WeaponParts_Standard,Supplies - Weapons - Standard Weapon Parts,1,+1 Daily Supplies - Weapons - Standard Weapon Parts,XTB_TerritoryTrait_LocTypeCheckpoint_StandardWeaponPartsBonus,Military Checkpoint
+LocTypeSettlement,SS2_VirtualResource_Caps,Caps,500,+500 Daily Caps,XTB_TerritoryTrait_LocTypeSettlement_CapsBonus,Settlement
+XTB_LocationTag_Airplane,SS2_VirtualResource_BuildingMaterials_Aluminum,Scrap - Building Materials - Aluminum,50,+50 Daily Scrap - Building Materials - Aluminum,XTB_TerritoryTrait_XTB_LocationTag_Airplane_AluminumBonus,Airplane Wreckage
+XTB_LocationTag_Airplane,SS2_VirtualResourceCategory_MachineParts,Scrap - Machine Parts,25,+25 Daily Scrap - Machine Parts,XTB_TerritoryTrait_XTB_LocationTag_Airplane_MachinePartsBonus,Airplane Wreckage
+XTB_LocationTag_Bank,SS2_VirtualResource_MachineParts_Copper,Scrap - Machine Parts - Copper,20,+20 Daily Scrap - Machine Parts - Copper,XTB_TerritoryTrait_XTB_LocationTag_Bank_CopperBonus,Bank
+XTB_LocationTag_Bank,SS2_VirtualResource_MachineParts_Silver,Scrap - Machine Parts - Silver,20,+20 Daily Scrap - Machine Parts - Silver,XTB_TerritoryTrait_XTB_LocationTag_Bank_SilverBonus,Bank
+XTB_LocationTag_Bank,SS2_VirtualResource_OrganicMaterials_Cloth,Scrap - Organic Materials - Cloth,20,+20 Daily Scrap - Organic Materials - Cloth,XTB_TerritoryTrait_XTB_LocationTag_Bank_ClothBonus,Bank
+XTB_LocationTag_Bank,SS2_VirtualResource_RareMaterials_Gold,Scrap - Rare Materials - Gold,10,+10 Daily Scrap - Rare Materials - Gold,XTB_TerritoryTrait_XTB_LocationTag_Bank_GoldBonus,Bank
+XTB_LocationTag_Cave,SS2_VirtualResource_BuildingMaterials_Concrete,Scrap - Building Materials - Concrete,40,+40 Daily Scrap - Building Materials - Concrete,XTB_TerritoryTrait_XTB_LocationTag_Cave_ConcreteBonus,Cave
+XTB_LocationTag_Cave,SS2_VirtualResource_RareMaterials_Crystal,Scrap - Rare Materials - Crystal,5,+5 Daily Scrap - Rare Materials - Crystal,XTB_TerritoryTrait_XTB_LocationTag_Cave_CrystalBonus,Cave
+XTB_LocationTag_Cemetery,SS2_VirtualResource_OrganicMaterials_Ceramic,Scrap - Organic Materials - Ceramic,10,+10 Daily Scrap - Organic Materials - Ceramic,XTB_TerritoryTrait_XTB_LocationTag_Cemetery_CeramicBonus,Cemetery
+XTB_LocationTag_Cemetery,SS2_VirtualResource_OrganicMaterials_Cloth,Scrap - Organic Materials - Cloth,10,+10 Daily Scrap - Organic Materials - Cloth,XTB_TerritoryTrait_XTB_LocationTag_Cemetery_ClothBonus,Cemetery
+XTB_LocationTag_Cemetery,SS2_VirtualResource_BuildingMaterials_Concrete,Scrap - Building Materials - Concrete,10,+10 Daily Scrap - Building Materials - Concrete,XTB_TerritoryTrait_XTB_LocationTag_Cemetery_ConcreteBonus,Cemetery
+XTB_LocationTag_Cemetery,SS2_VirtualResource_OrganicMaterials_Bone,Scrap - Organic Materials - Bone,10,+10 Daily Scrap - Organic Materials - Bone,XTB_TerritoryTrait_XTB_LocationTag_Cemetery_BoneBonus,Cemetery
+XTB_LocationTag_Cemetery,SS2_VirtualResource_OrganicMaterials_Fertilizer,Scrap - Organic Materials - Fertalizer,10,+10 Daily Scrap - Organic Materials - Fertalizer,XTB_TerritoryTrait_XTB_LocationTag_Cemetery_FertalizerBonus,Cemetery
+XTB_LocationTag_Diner,WorkshopRatingScavengeGeneral,Junk,15,+15 Daily Junk,XTB_TerritoryTrait_XTB_LocationTag_Diner_JunkBonus,Diner
+XTB_LocationTag_Factory,SS2_VirtualResourceCategory_MachineParts,Scrap - Machine Parts,30,+30 Daily Scrap - Machine Parts,XTB_TerritoryTrait_XTB_LocationTag_Factory_MachinePartsBonus,Factory
+XTB_LocationTag_Factory,SS2_VirtualResourceCategory_RareMaterials,Scrap - Rare Materials,10,+10 Daily Scrap - Rare Materials,XTB_TerritoryTrait_XTB_LocationTag_Factory_RareMaterialsBonus,Factory
+XTB_LocationTag_Farm,SS2_VirtualResource_Food,Food,20,+20 Daily Food,XTB_TerritoryTrait_XTB_LocationTag_Farm_FoodBonus,Farm
+XTB_LocationTag_GasStation,SS2_VirtualResourceCategory_MachineParts,Scrap - Machine Parts,20,+20 Daily Scrap - Machine Parts,XTB_TerritoryTrait_XTB_LocationTag_GasStation_MachinePartsBonus,Gas Station
+XTB_LocationTag_GasStation,SS2_VirtualResource_OrganicMaterials_Acid,Scrap - Organic Materials - Acid,15,+15 Daily Scrap - Organic Materials - Acid,XTB_TerritoryTrait_XTB_LocationTag_GasStation_AcidBonus,Gas Station
+XTB_LocationTag_GasStation,SS2_VirtualResource_OrganicMaterials_Oil,Scrap - Organic Materials - Oil,25,+25 Daily Scrap - Organic Materials - Oil,XTB_TerritoryTrait_XTB_LocationTag_GasStation_OilBonus,Gas Station
+XTB_LocationTag_Hospital,SS2_VirtualResource_Supplies_Chems_Cures,Supplies - Chems - Cures,8,+8 Daily Supplies - Chems - Cures,XTB_TerritoryTrait_XTB_LocationTag_Hospital_CuresBonus,Hospital
+XTB_LocationTag_Hospital,SS2_VirtualResource_Supplies_Chems_Stims,Supplies - Chems - Stimpacks,10,+10 Daily Supplies - Chems - Stimpacks,XTB_TerritoryTrait_XTB_LocationTag_Hospital_StimpacksBonus,Hospital
+XTB_LocationTag_Military,SS2_VirtualResource_RareMaterials_BallisticFiber,Scrap - Rare Materials - Ballistic Fiber,3,+3 Daily Scrap - Rare Materials - Ballistic Fiber,XTB_TerritoryTrait_XTB_LocationTag_Military_BallisticFiberBonus,Military
+XTB_LocationTag_Military,SS2_VirtualResource_Supplies_Armor_Power,Supplies - Armor - Power Armor Parts,1,+1 Daily Supplies - Armor - Power Armor Parts,XTB_TerritoryTrait_XTB_LocationTag_Military_PowerArmorPartsBonus,Military
+XTB_LocationTag_Military,SS2_VirtualResource_Supplies_Armor_Standard,Supplies - Armor - Standard Armor Parts,3,+3 Daily Supplies - Armor - Standard Armor Parts,XTB_TerritoryTrait_XTB_LocationTag_Military_StandardArmorPartsBonus,Military
+XTB_LocationTag_Military,SS2_VirtualResource_Supplies_Ammo_Ballistic,Supplies - Ammo - Ballistic Ammo,25,+25 Daily Supplies - Ammo - Ballistic Ammo,XTB_TerritoryTrait_XTB_LocationTag_Military_BallisticAmmoBonus,Military
+XTB_LocationTag_Military,SS2_VirtualResource_Supplies_Ammo_Energy,Supplies - Ammo - Energy Ammo,10,+10 Daily Supplies - Ammo - Energy Ammo,XTB_TerritoryTrait_XTB_LocationTag_Military_EnergyAmmoBonus,Military
+XTB_LocationTag_Military,SS2_VirtualResource_Supplies_Ammo_Explosive,Supplies - Ammo - Explosives,3,+3 Daily Supplies - Ammo - Explosives,XTB_TerritoryTrait_XTB_LocationTag_Military_ExplosivesBonus,Military
+XTB_LocationTag_Military,SS2_VirtualResource_Supplies_WeaponParts_Standard,Supplies - Weapons - Standard Weapon Parts,3,+3 Daily Supplies - Weapons - Standard Weapon Parts,XTB_TerritoryTrait_XTB_LocationTag_Military_StandardWeaponPartsBonus,Military
+XTB_LocationTag_Monument,WorkshopRatingHappiness,Happiness,10,+10 Daily Happiness,XTB_TerritoryTrait_XTB_LocationTag_Monument_HappinessBonus,Monument
+XTB_LocationTag_Office,WorkshopRatingScavengeGeneral,Junk,15,+15 Daily Junk,XTB_TerritoryTrait_XTB_LocationTag_Office_JunkBonus,Office
+XTB_LocationTag_Office,SS2_VirtualResourceCategory_BuildingMaterials,Scrap - Building Materials,30,+30 Daily Scrap - Building Materials,XTB_TerritoryTrait_XTB_LocationTag_Office_BuildingMaterialsBonus,Office
+XTB_LocationTag_Quarry,SS2_VirtualResource_BuildingMaterials_Concrete,Scrap - Building Materials - Concrete,50,+50 Daily Scrap - Building Materials - Concrete,XTB_TerritoryTrait_XTB_LocationTag_Quarry_ConcreteBonus,Quarry
+XTB_LocationTag_Raider,SS2_VirtualResource_Supplies_Chems_Enhancements,Supplies - Chems - Enhancements,1,+1 Daily Supplies - Chems - Enhancements,XTB_TerritoryTrait_XTB_LocationTag_Raider_EnhancementsBonus,Raider
+XTB_LocationTag_Raider,SS2_VirtualResource_Supplies_Ammo_Ballistic,Supplies - Ammo - Ballistic Ammo,25,+25 Daily Supplies - Ammo - Ballistic Ammo,XTB_TerritoryTrait_XTB_LocationTag_Raider_BallisticAmmoBonus,Raider
+XTB_LocationTag_Raider,SS2_VirtualResource_Supplies_Armor_Makeshift,Supplies - Weapons - Makeshift Armor Parts,3,+3 Daily Supplies - Weapons - Makeshift Armor Parts,XTB_TerritoryTrait_XTB_LocationTag_Raider_MakeshiftArmorPartsBonus,Raider
+XTB_LocationTag_Raider,SS2_VirtualResource_Supplies_WeaponParts_Makeshift,Supplies - Weapons - Makeshift Weapon Parts,3,+3 Daily Supplies - Weapons - Makeshift Weapon Parts,XTB_TerritoryTrait_XTB_LocationTag_Raider_MakeshiftWeaponPartsBonus,Raider
+XTB_LocationTag_TownRuins,WorkshopRatingScavengeGeneral,Junk,25,+25 Daily Junk,XTB_TerritoryTrait_XTB_LocationTag_TownRuins_JunkBonus,Town Ruins
+XTB_LocationTag_TownRuins,SS2_VirtualResourceCategory_BuildingMaterials,Scrap - Building Materials,50,+50 Daily Scrap - Building Materials,XTB_TerritoryTrait_XTB_LocationTag_TownRuins_BuildingMaterialsBonus,Town Ruins
+XTB_LocationTag_Telecom,SS2_VirtualResource_MachineParts_Circuitry,Scrap - Machine Parts - Circuitry,20,+20 Daily Scrap - Machine Parts - Circuitry,XTB_TerritoryTrait_XTB_LocationTag_Telecom_CircuitryBonus,Telecom
+XTB_LocationTag_Telecom,SS2_VirtualResource_MachineParts_Copper,Scrap - Machine Parts - Copper,20,+20 Daily Scrap - Machine Parts - Copper,XTB_TerritoryTrait_XTB_LocationTag_Telecom_CopperBonus,Telecom
+XTB_LocationTag_Telecom,SS2_VirtualResource_RareMaterials_FiberOptics,Scrap - Rare Materials - Fiber Optics,10,+10 Daily Scrap - Rare Materials - Fiber Optics,XTB_TerritoryTrait_XTB_LocationTag_Telecom_FiberOpticsBonus,Telecom
+XTB_LocationTag_Vault,WorkshopRatingScavengeGeneral,Junk,25,+25 Daily Junk,XTB_TerritoryTrait_XTB_LocationTag_Vault_JunkBonus,Vault
+XTB_LocationTag_Vault,SS2_VirtualResource_BuildingMaterials_Steel,Scrap - Building Materials - Steel,50,+50 Daily Scrap - Building Materials - Steel,XTB_TerritoryTrait_XTB_LocationTag_Vault_SteelBonus,Vault
+XTB_LocationTag_WaterPlant,SS2_VirtualResource_Water,Water,50,+50 Daily Water,XTB_TerritoryTrait_XTB_LocationTag_WaterPlant_WaterBonus,Water Plant
+XTB_LocationTag_Submarine,SS2_VirtualResource_OrganicMaterials_Bone,Scrap - Organic Materials - Bone,10,+10 Daily Scrap - Organic Materials - Bone,XTB_TerritoryTrait_XTB_LocationTag_Submarine_BoneBonus,Submarine
+XTB_LocationTag_Submarine,SS2_VirtualResource_RareMaterials_NuclearMaterial,Scrap - Rare Materials - Nuclear Material,30,+30 Daily Scrap - Rare Materials - Nuclear Material,XTB_TerritoryTrait_XTB_LocationTag_Submarine_NuclearMaterialBonus,Submarine
+XTB_LocationTag_Police,SS2_VirtualResource_RareMaterials_BallisticFiber,Scrap - Rare Materials - Ballistic Fiber,3,+3 Daily Scrap - Rare Materials - Ballistic Fiber,XTB_TerritoryTrait_XTB_LocationTag_Police_BallisticFiberBonus,Police
+XTB_LocationTag_Police,SS2_VirtualResource_Supplies_Armor_Standard,Supplies - Armor - Standard Armor Parts,3,+3 Daily Supplies - Armor - Standard Armor Parts,XTB_TerritoryTrait_XTB_LocationTag_Police_StandardArmorPartsBonus,Police
+XTB_LocationTag_Police,SS2_VirtualResource_Supplies_Ammo_Ballistic,Supplies - Ammo - Ballistic Ammo,25,+25 Daily Supplies - Ammo - Ballistic Ammo,XTB_TerritoryTrait_XTB_LocationTag_Police_BallisticAmmoBonus,Police
+XTB_LocationTag_Police,SS2_VirtualResource_Supplies_WeaponParts_Standard,Supplies - Weapons - Standard Weapon Parts,3,+3 Daily Supplies - Weapons - Standard Weapon Parts,XTB_TerritoryTrait_XTB_LocationTag_Police_StandardWeaponPartsBonus,Police
