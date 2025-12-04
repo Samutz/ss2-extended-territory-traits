@@ -72,6 +72,8 @@ class Program
 
         ILinkCache linkCache = env.LoadOrder.ToImmutableLinkCache();
 
+        outgoing.IsSmallMaster = true;
+
         linkCache.TryResolve<IMiscItemGetter>(FormKey.Factory("04E3DD:SS2.esm"), out var traitTemplate);
         if (traitTemplate is null) throw new ArgumentException("Couldn't get trait template");
 
@@ -130,13 +132,17 @@ class Program
                             Name = "SimSettlementsV2:MiscObjects:UsageRequirements",
                             Properties = [
                                 new ScriptStructListProperty(){
-                                    Name = "LocationKeywordRequirements",
+                                    Name = "LocationKeywordDataRequirements",
                                     Structs = [
                                         new ScriptEntryStructs(){
                                             Members = [
                                                 new ScriptObjectProperty(){
-                                                    Name = "BaseForm",
+                                                    Name = "KeywordForm",
                                                     Object = locationKeyword.ToLink()
+                                                },
+                                                new ScriptFloatProperty(){
+                                                    Name = "fValue",
+                                                    Data = 1
                                                 }
                                             ]
                                         }
