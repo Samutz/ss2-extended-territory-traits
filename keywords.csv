@@ -58,7 +58,7 @@ XTB_LocationTag_Cemetery,SS2_VirtualResource_OrganicMaterials_Fertilizer,Scrap -
 XTB_LocationTag_Diner,WorkshopRatingScavengeGeneral,Junk,15,+15 Daily Junk,XTB_TerritoryTrait_XTB_LocationTag_Diner_JunkBonus,Diner
 XTB_LocationTag_Factory,SS2_VirtualResourceCategory_MachineParts,Scrap - Machine Parts,30,+30 Daily Scrap - Machine Parts,XTB_TerritoryTrait_XTB_LocationTag_Factory_MachinePartsBonus,Factory
 XTB_LocationTag_Factory,SS2_VirtualResourceCategory_RareMaterials,Scrap - Rare Materials,10,+10 Daily Scrap - Rare Materials,XTB_TerritoryTrait_XTB_LocationTag_Factory_RareMaterialsBonus,Factory
-XTB_LocationTag_Farm,SS2_VirtualResource_Food,Food,20,+20 Daily Food,XTB_TerritoryTrait_XTB_LocationTag_Farm_FoodBonus,Farm
+XTB_LocationTag_Farm,WorkshopRatingFoodActual,Food,20,+20 Daily Food,XTB_TerritoryTrait_XTB_LocationTag_Farm_FoodBonus,Farm
 XTB_LocationTag_GasStation,SS2_VirtualResourceCategory_MachineParts,Scrap - Machine Parts,20,+20 Daily Scrap - Machine Parts,XTB_TerritoryTrait_XTB_LocationTag_GasStation_MachinePartsBonus,Gas Station
 XTB_LocationTag_GasStation,SS2_VirtualResource_OrganicMaterials_Acid,Scrap - Organic Materials - Acid,15,+15 Daily Scrap - Organic Materials - Acid,XTB_TerritoryTrait_XTB_LocationTag_GasStation_AcidBonus,Gas Station
 XTB_LocationTag_GasStation,SS2_VirtualResource_OrganicMaterials_Oil,Scrap - Organic Materials - Oil,25,+25 Daily Scrap - Organic Materials - Oil,XTB_TerritoryTrait_XTB_LocationTag_GasStation_OilBonus,Gas Station
@@ -86,7 +86,7 @@ XTB_LocationTag_Telecom,SS2_VirtualResource_MachineParts_Copper,Scrap - Machine 
 XTB_LocationTag_Telecom,SS2_VirtualResource_RareMaterials_FiberOptics,Scrap - Rare Materials - Fiber Optics,10,+10 Daily Scrap - Rare Materials - Fiber Optics,XTB_TerritoryTrait_XTB_LocationTag_Telecom_FiberOpticsBonus,Telecom
 XTB_LocationTag_Vault,WorkshopRatingScavengeGeneral,Junk,25,+25 Daily Junk,XTB_TerritoryTrait_XTB_LocationTag_Vault_JunkBonus,Vault
 XTB_LocationTag_Vault,SS2_VirtualResource_BuildingMaterials_Steel,Scrap - Building Materials - Steel,50,+50 Daily Scrap - Building Materials - Steel,XTB_TerritoryTrait_XTB_LocationTag_Vault_SteelBonus,Vault
-XTB_LocationTag_WaterPlant,SS2_VirtualResource_Water,Water,50,+50 Daily Water,XTB_TerritoryTrait_XTB_LocationTag_WaterPlant_WaterBonus,Water Plant
+XTB_LocationTag_WaterPlant,WorkshopRatingTotalWater,Water,50,+50 Daily Water,XTB_TerritoryTrait_XTB_LocationTag_WaterPlant_WaterBonus,Water Plant
 XTB_LocationTag_Submarine,SS2_VirtualResource_OrganicMaterials_Bone,Scrap - Organic Materials - Bone,10,+10 Daily Scrap - Organic Materials - Bone,XTB_TerritoryTrait_XTB_LocationTag_Submarine_BoneBonus,Submarine
 XTB_LocationTag_Submarine,SS2_VirtualResource_RareMaterials_NuclearMaterial,Scrap - Rare Materials - Nuclear Material,30,+30 Daily Scrap - Rare Materials - Nuclear Material,XTB_TerritoryTrait_XTB_LocationTag_Submarine_NuclearMaterialBonus,Submarine
 XTB_LocationTag_Police,SS2_VirtualResource_RareMaterials_BallisticFiber,Scrap - Rare Materials - Ballistic Fiber,3,+3 Daily Scrap - Rare Materials - Ballistic Fiber,XTB_TerritoryTrait_XTB_LocationTag_Police_BallisticFiberBonus,Police
