@@ -196,6 +196,10 @@ class Program
             var newTraitMiscItem = outgoing.MiscItems.DuplicateInAsNewRecord(traitTemplate);
             newTraitMiscItem.EditorID = trait.TraitEditorID;
             newTraitMiscItem.Name = trait.TraitDescription;
+
+            string sDefaultEffect = "VirtualResourceModifier";
+            if (resourceAV.EditorID is not null && !resourceAV.EditorID.StartsWith("SS2_VirtualResource")) sDefaultEffect = "SettlementResourceModifier";
+
             newTraitMiscItem.VirtualMachineAdapter = new VirtualMachineAdapter
             {
                 Scripts = [
@@ -207,11 +211,12 @@ class Program
                                 Name = "bAllowDynamicUse",
                                 Data = true
                             },
-                            new ScriptStructListProperty(){
+                            new ScriptStructProperty(){
                                 Name = "DefaultEffectForm01",
-                                Structs = [
-                                    new ScriptEntryStructs(){
-                                        Members = [
+                                Members = [
+                                    new ScriptEntry()
+                                    {
+                                        Properties = [
                                             new ScriptObjectProperty(){
                                                 Name = "BaseForm",
                                                 Object = resourceAV.ToLink()
@@ -234,7 +239,7 @@ class Program
                             },
                             new ScriptStringProperty(){
                                 Name = "sDefaultEffect",
-                                Data = "VirtualResourceModifier"
+                                Data = sDefaultEffect
                             },
                             new ScriptObjectProperty(){
                                 Name = "TraitDescriptionHolder",
